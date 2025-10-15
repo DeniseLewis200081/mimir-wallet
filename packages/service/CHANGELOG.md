@@ -1,5 +1,31 @@
 # Changelog
 
+## [3.0.0](https://github.com/DeniseLewis200081/mimir-wallet/compare/service-v2.32.0...service-v3.0.0) (2025-10-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/DeniseLewis200081/mimir-wallet/issues/198))
+
+### Features
+
+* add bounty manager dapp support for paseo chain ([#181](https://github.com/DeniseLewis200081/mimir-wallet/issues/181)) ([9efe993](https://github.com/DeniseLewis200081/mimir-wallet/commit/9efe993212b16ae08988986f5ddadc47305318e1))
+* Add cross-chain calldata display component ([#291](https://github.com/DeniseLewis200081/mimir-wallet/issues/291)) ([8d0c62b](https://github.com/DeniseLewis200081/mimir-wallet/commit/8d0c62b325d3aec51ec6331d538581cc36ada21d))
+* Add dry run API support for transaction simulation ([#207](https://github.com/DeniseLewis200081/mimir-wallet/issues/207)) ([c60865f](https://github.com/DeniseLewis200081/mimir-wallet/commit/c60865f961b77af99a842689598199a630577482))
+* Add notification center feature ([#282](https://github.com/DeniseLewis200081/mimir-wallet/issues/282)) ([9bdeacf](https://github.com/DeniseLewis200081/mimir-wallet/commit/9bdeacf40434e9e1bfe25146aaac434405d947b2))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/DeniseLewis200081/mimir-wallet/issues/171)) ([d051f85](https://github.com/DeniseLewis200081/mimir-wallet/commit/d051f85d281c7150b87716f4481cb5cafb8dbf39))
+* Add remote proxy support ([#236](https://github.com/DeniseLewis200081/mimir-wallet/issues/236)) ([bad9ae3](https://github.com/DeniseLewis200081/mimir-wallet/commit/bad9ae38f0a68f5d2c3cea071a1c1296d8eb238d))
+* add transaction subscription functionality ([#213](https://github.com/DeniseLewis200081/mimir-wallet/issues/213)) ([39c2831](https://github.com/DeniseLewis200081/mimir-wallet/commit/39c2831fb3bf35189522da74a53e9551c07d7538))
+* Add zkVerify testnet supported ([#251](https://github.com/DeniseLewis200081/mimir-wallet/issues/251)) ([60b387d](https://github.com/DeniseLewis200081/mimir-wallet/commit/60b387db01918b61ea93f95f20339bc868268618))
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/DeniseLewis200081/mimir-wallet/issues/198)) ([880b44a](https://github.com/DeniseLewis200081/mimir-wallet/commit/880b44ae046bf52b4d387dcf36f29d33f50c2499))
+* Improve UI display and user experience ([#218](https://github.com/DeniseLewis200081/mimir-wallet/issues/218)) ([b015909](https://github.com/DeniseLewis200081/mimir-wallet/commit/b015909fd11f58962f9b3ae992566181e623a20e))
+* Optimize balance retrieval logic ([#311](https://github.com/DeniseLewis200081/mimir-wallet/issues/311)) ([23d2a14](https://github.com/DeniseLewis200081/mimir-wallet/commit/23d2a141013e43601ee76bf51794fe23ef47d172))
+* remove assethub next westend network ([#232](https://github.com/DeniseLewis200081/mimir-wallet/issues/232)) ([9606f42](https://github.com/DeniseLewis200081/mimir-wallet/commit/9606f42dd0442fd2e19d54f377ff54bb3abe6b74))
+* remove batch restore functionality ([#204](https://github.com/DeniseLewis200081/mimir-wallet/issues/204)) ([4fc4e8e](https://github.com/DeniseLewis200081/mimir-wallet/commit/4fc4e8e5f316ae3b11fae2beb790572020355c7d))
+* subscribe wallet accounts changed ([#176](https://github.com/DeniseLewis200081/mimir-wallet/issues/176)) ([fe99fb8](https://github.com/DeniseLewis200081/mimir-wallet/commit/fe99fb82c472fff305d52ecf20b2e4a7fed0829a))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/DeniseLewis200081/mimir-wallet/issues/261)) ([ab7477f](https://github.com/DeniseLewis200081/mimir-wallet/commit/ab7477f8a9061daef92c1dbffc369c2f4889078a))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/DeniseLewis200081/mimir-wallet/issues/267)) ([e851ca2](https://github.com/DeniseLewis200081/mimir-wallet/commit/e851ca2a612341b00ef963ab0ec3de8c6b099b0e))
+
 ## [2.32.0](https://github.com/mimir-labs/mimir-wallet/compare/service-v2.31.0...service-v2.32.0) (2025-10-14)
 
 

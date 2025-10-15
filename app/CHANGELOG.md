@@ -1,5 +1,113 @@
 # Changelog
 
+## [3.0.0](https://github.com/DeniseLewis200081/mimir-wallet/compare/mimir-wallet-app-v2.32.0...mimir-wallet-app-v3.0.0) (2025-10-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/DeniseLewis200081/mimir-wallet/issues/198))
+
+### Features
+
+* Add Acurast Canary network support ([#323](https://github.com/DeniseLewis200081/mimir-wallet/issues/323)) ([db188bf](https://github.com/DeniseLewis200081/mimir-wallet/commit/db188bf646d2dd29f162eca9afd697d547ae8fae))
+* add ai assistant for mimir ([#319](https://github.com/DeniseLewis200081/mimir-wallet/issues/319)) ([f44ca11](https://github.com/DeniseLewis200081/mimir-wallet/commit/f44ca11b921fe13bc2f8f2bc981f88378afa1207))
+* Add astar network support ([#230](https://github.com/DeniseLewis200081/mimir-wallet/issues/230)) ([7d37c8e](https://github.com/DeniseLewis200081/mimir-wallet/commit/7d37c8ef6155ae242b16059cc1fc80e262de4c76))
+* add bounty manager dapp support for paseo chain ([#181](https://github.com/DeniseLewis200081/mimir-wallet/issues/181)) ([9efe993](https://github.com/DeniseLewis200081/mimir-wallet/commit/9efe993212b16ae08988986f5ddadc47305318e1))
+* add comprehensive analytics tracking for user interactions ([#326](https://github.com/DeniseLewis200081/mimir-wallet/issues/326)) ([b2af66c](https://github.com/DeniseLewis200081/mimir-wallet/commit/b2af66cde2dd33fac6b88ec68a6b3c8e79a67cd9))
+* Add conviction voting display ([#273](https://github.com/DeniseLewis200081/mimir-wallet/issues/273)) ([c38c853](https://github.com/DeniseLewis200081/mimir-wallet/commit/c38c85365c43e6b0e3c6d226de2c0f2c6b5dd095))
+* Add cross-chain calldata display component ([#291](https://github.com/DeniseLewis200081/mimir-wallet/issues/291)) ([8d0c62b](https://github.com/DeniseLewis200081/mimir-wallet/commit/8d0c62b325d3aec51ec6331d538581cc36ada21d))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/DeniseLewis200081/mimir-wallet/issues/285)) ([ee60301](https://github.com/DeniseLewis200081/mimir-wallet/commit/ee60301e5ad67382192b5ef36730b3fb6a304739))
+* add delete address book functionality ([#190](https://github.com/DeniseLewis200081/mimir-wallet/issues/190)) ([4954cde](https://github.com/DeniseLewis200081/mimir-wallet/commit/4954cde9d30b0aeb4827f98ca0a08c10935b3f57))
+* Add dry run API support for transaction simulation ([#207](https://github.com/DeniseLewis200081/mimir-wallet/issues/207)) ([c60865f](https://github.com/DeniseLewis200081/mimir-wallet/commit/c60865f961b77af99a842689598199a630577482))
+* Add ErrorBoundary for submit transaction ([#309](https://github.com/DeniseLewis200081/mimir-wallet/issues/309)) ([3774e4d](https://github.com/DeniseLewis200081/mimir-wallet/commit/3774e4d7780411c16b7040fa395836c56751b00a))
+* add global account search and refactor UI components ([#167](https://github.com/DeniseLewis200081/mimir-wallet/issues/167)) ([5312d91](https://github.com/DeniseLewis200081/mimir-wallet/commit/5312d9176b3ce531e855c12174e55bfc4001b2a0))
+* Add group by date for transaction ([#284](https://github.com/DeniseLewis200081/mimir-wallet/issues/284)) ([2aee593](https://github.com/DeniseLewis200081/mimir-wallet/commit/2aee5930170c60f48acd5921b221075df0ae4d33))
+* Add moonbeam and tanssi network support ([#327](https://github.com/DeniseLewis200081/mimir-wallet/issues/327)) ([60d4f1a](https://github.com/DeniseLewis200081/mimir-wallet/commit/60d4f1ac4aed39d3e8bfcdca10f748f63cec27c6))
+* Add multi-transfer app ([#271](https://github.com/DeniseLewis200081/mimir-wallet/issues/271)) ([0f9e761](https://github.com/DeniseLewis200081/mimir-wallet/commit/0f9e761b0fa0c02c637cd350f223cd4e47c3046f))
+* Add notification center feature ([#282](https://github.com/DeniseLewis200081/mimir-wallet/issues/282)) ([9bdeacf](https://github.com/DeniseLewis200081/mimir-wallet/commit/9bdeacf40434e9e1bfe25146aaac434405d947b2))
+* add permission check when submit transaction ([#164](https://github.com/DeniseLewis200081/mimir-wallet/issues/164)) ([c080717](https://github.com/DeniseLewis200081/mimir-wallet/commit/c0807171e4c3192ffcc8388f8d4a4a98efcc15d4))
+* Add polkassembly app supported ([#265](https://github.com/DeniseLewis200081/mimir-wallet/issues/265)) ([d86565d](https://github.com/DeniseLewis200081/mimir-wallet/commit/d86565d12316817bc7ee242c281a299e9597d7ef))
+* add posthog integration ([#276](https://github.com/DeniseLewis200081/mimir-wallet/issues/276)) ([2865326](https://github.com/DeniseLewis200081/mimir-wallet/commit/28653263f141e62f174b54c59120a93af5ca269f))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/DeniseLewis200081/mimir-wallet/issues/171)) ([d051f85](https://github.com/DeniseLewis200081/mimir-wallet/commit/d051f85d281c7150b87716f4481cb5cafb8dbf39))
+* Add regoinx dapp support ([0138975](https://github.com/DeniseLewis200081/mimir-wallet/commit/01389754c59aa507d17d13c375a5f0f8936bc9b4))
+* add relay chain auto-dependency for all parachains ([#321](https://github.com/DeniseLewis200081/mimir-wallet/issues/321)) ([673aa42](https://github.com/DeniseLewis200081/mimir-wallet/commit/673aa421de90125e0f32563c1c3538398fefec71))
+* Add remote proxy support ([#236](https://github.com/DeniseLewis200081/mimir-wallet/issues/236)) ([bad9ae3](https://github.com/DeniseLewis200081/mimir-wallet/commit/bad9ae38f0a68f5d2c3cea071a1c1296d8eb238d))
+* Add sonner to replace react-toastify ([#280](https://github.com/DeniseLewis200081/mimir-wallet/issues/280)) ([72ad344](https://github.com/DeniseLewis200081/mimir-wallet/commit/72ad34420c290b55b9ff4e2497745e262b1e0453))
+* add template detail view functionality ([#174](https://github.com/DeniseLewis200081/mimir-wallet/issues/174)) ([12740d4](https://github.com/DeniseLewis200081/mimir-wallet/commit/12740d410aaf1e32cd57c99d4c00d567a62cf0e3))
+* Add tooltip for favorite dapp items ([#275](https://github.com/DeniseLewis200081/mimir-wallet/issues/275)) ([d4c0a6f](https://github.com/DeniseLewis200081/mimir-wallet/commit/d4c0a6f9c20405d9d44217e0cb264fcf1b6a3743))
+* add transaction subscription functionality ([#213](https://github.com/DeniseLewis200081/mimir-wallet/issues/213)) ([39c2831](https://github.com/DeniseLewis200081/mimir-wallet/commit/39c2831fb3bf35189522da74a53e9551c07d7538))
+* add visible field to DappOption for display control ([#305](https://github.com/DeniseLewis200081/mimir-wallet/issues/305)) ([cf5443e](https://github.com/DeniseLewis200081/mimir-wallet/commit/cf5443e808a430b586a520b3b01aa0a1ac49e4d8))
+* Add walletconnect in dapp page ([#217](https://github.com/DeniseLewis200081/mimir-wallet/issues/217)) ([46ac668](https://github.com/DeniseLewis200081/mimir-wallet/commit/46ac668c728cd87ee24cc6a9d51f4000399436db))
+* Add zkverify mainnet support ([#312](https://github.com/DeniseLewis200081/mimir-wallet/issues/312)) ([cba3b7b](https://github.com/DeniseLewis200081/mimir-wallet/commit/cba3b7b0f3781d6e34279e225baf77c2be459e0e))
+* Add zkVerify testnet supported ([#251](https://github.com/DeniseLewis200081/mimir-wallet/issues/251)) ([60b387d](https://github.com/DeniseLewis200081/mimir-wallet/commit/60b387db01918b61ea93f95f20339bc868268618))
+* allow adding lower permission proxies when higher permission proxies exist ([#215](https://github.com/DeniseLewis200081/mimir-wallet/issues/215)) ([2aaafaf](https://github.com/DeniseLewis200081/mimir-wallet/commit/2aaafafcf84bd630a22db3340351af5b7c569494))
+* change polkadot cloud staking app informations ([#307](https://github.com/DeniseLewis200081/mimir-wallet/issues/307)) ([b3fb887](https://github.com/DeniseLewis200081/mimir-wallet/commit/b3fb8877a5528dbd130414707ac72aa3060c1d48))
+* **dapp:** Add bounties app developed by the PAPI team ([#262](https://github.com/DeniseLewis200081/mimir-wallet/issues/262)) ([8e2d819](https://github.com/DeniseLewis200081/mimir-wallet/commit/8e2d8190facd82804da3d946d946e442a4bbd3a9))
+* **dapp:** implement custom dapp management system ([#249](https://github.com/DeniseLewis200081/mimir-wallet/issues/249)) ([5f37730](https://github.com/DeniseLewis200081/mimir-wallet/commit/5f3773082222865d8284814a9c842375cd8fbfdd))
+* distinguish between transactions already added to batch and those not yet added in Restore page to prevent duplicate additions ([#200](https://github.com/DeniseLewis200081/mimir-wallet/issues/200)) ([1aa608a](https://github.com/DeniseLewis200081/mimir-wallet/commit/1aa608af4f3fedc046e1000b3f1854f7de2ed905))
+* enable restore batch from remote ([#173](https://github.com/DeniseLewis200081/mimir-wallet/issues/173)) ([23cc5f3](https://github.com/DeniseLewis200081/mimir-wallet/commit/23cc5f3aea8b11ad5fb1b5fbe9317dd1b452cc2c))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/DeniseLewis200081/mimir-wallet/issues/254)) ([8256660](https://github.com/DeniseLewis200081/mimir-wallet/commit/8256660d20e32ef6e49b78f0366bda459884e9fb))
+* implement AssetHub migration support ([#259](https://github.com/DeniseLewis200081/mimir-wallet/issues/259)) ([0e2db1c](https://github.com/DeniseLewis200081/mimir-wallet/commit/0e2db1c7dd52d45935eb35f3b552feef17f29b1d))
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/DeniseLewis200081/mimir-wallet/issues/198)) ([880b44a](https://github.com/DeniseLewis200081/mimir-wallet/commit/880b44ae046bf52b4d387dcf36f29d33f50c2499))
+* implement success UI for multisig account creation ([#216](https://github.com/DeniseLewis200081/mimir-wallet/issues/216)) ([69ec15f](https://github.com/DeniseLewis200081/mimir-wallet/commit/69ec15fef2dd904ee14f6ed1c24d00476fcd5010))
+* implement WalletConnect integration for seamless dApp connections ([#206](https://github.com/DeniseLewis200081/mimir-wallet/issues/206)) ([a772ff1](https://github.com/DeniseLewis200081/mimir-wallet/commit/a772ff1518d5a8b65f17039c0ceab5df9f29bd9d))
+* Improve UI display and user experience ([#218](https://github.com/DeniseLewis200081/mimir-wallet/issues/218)) ([b015909](https://github.com/DeniseLewis200081/mimir-wallet/commit/b015909fd11f58962f9b3ae992566181e623a20e))
+* migrate some ui components to shadcn ([#278](https://github.com/DeniseLewis200081/mimir-wallet/issues/278)) ([e689b99](https://github.com/DeniseLewis200081/mimir-wallet/commit/e689b99fbce6df07ce806bbfd2b74c1fdf3c94c3))
+* Optimize balance retrieval logic ([#311](https://github.com/DeniseLewis200081/mimir-wallet/issues/311)) ([23d2a14](https://github.com/DeniseLewis200081/mimir-wallet/commit/23d2a141013e43601ee76bf51794fe23ef47d172))
+* optimize rpc connection and improve network stability ([#193](https://github.com/DeniseLewis200081/mimir-wallet/issues/193)) ([5df565e](https://github.com/DeniseLewis200081/mimir-wallet/commit/5df565e47cb050c43a9c07d0754c8c77dc548ec0))
+* refactor home UI and add assets,analytic pages ([#270](https://github.com/DeniseLewis200081/mimir-wallet/issues/270)) ([78f1ee9](https://github.com/DeniseLewis200081/mimir-wallet/commit/78f1ee91364318a1d3fc0ca190db6c713925c077))
+* Refactor sidebar system with modular architecture and ShadCN integration ([#293](https://github.com/DeniseLewis200081/mimir-wallet/issues/293)) ([243f4a4](https://github.com/DeniseLewis200081/mimir-wallet/commit/243f4a465b5168c204003ad7cee8549f0c6d70ef))
+* remove assethub next westend network ([#232](https://github.com/DeniseLewis200081/mimir-wallet/issues/232)) ([9606f42](https://github.com/DeniseLewis200081/mimir-wallet/commit/9606f42dd0442fd2e19d54f377ff54bb3abe6b74))
+* remove batch restore functionality ([#204](https://github.com/DeniseLewis200081/mimir-wallet/issues/204)) ([4fc4e8e](https://github.com/DeniseLewis200081/mimir-wallet/commit/4fc4e8e5f316ae3b11fae2beb790572020355c7d))
+* **structure:** initialize monorepo with turborepo, and begin migration from MUI to Hero UI ([#162](https://github.com/DeniseLewis200081/mimir-wallet/issues/162)) ([dc55bd9](https://github.com/DeniseLewis200081/mimir-wallet/commit/dc55bd9d7bc1634958d4c52e88505999531a07bf))
+* subscribe wallet accounts changed ([#176](https://github.com/DeniseLewis200081/mimir-wallet/issues/176)) ([fe99fb8](https://github.com/DeniseLewis200081/mimir-wallet/commit/fe99fb82c472fff305d52ecf20b2e4a7fed0829a))
+* Support eth address transfer on westend ([#234](https://github.com/DeniseLewis200081/mimir-wallet/issues/234)) ([0f5d14c](https://github.com/DeniseLewis200081/mimir-wallet/commit/0f5d14c3a8b6330a2540f01442082ff7accff13e))
+* support eth address trasfer on westend assethub ([#224](https://github.com/DeniseLewis200081/mimir-wallet/issues/224)) ([24e4bff](https://github.com/DeniseLewis200081/mimir-wallet/commit/24e4bff8cc940cb791d6d978c18a2ff0a5614ee8))
+* **transactions:** refactor approval flow with enhanced multisig execution ([#256](https://github.com/DeniseLewis200081/mimir-wallet/issues/256)) ([f31ca59](https://github.com/DeniseLewis200081/mimir-wallet/commit/f31ca59ea31d5201dde4a207eba6d6a651040617))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/DeniseLewis200081/mimir-wallet/issues/261)) ([ab7477f](https://github.com/DeniseLewis200081/mimir-wallet/commit/ab7477f8a9061daef92c1dbffc369c2f4889078a))
+* **ui:** refactor add proxy UX with responsive design and step wizard ([#268](https://github.com/DeniseLewis200081/mimir-wallet/issues/268)) ([eb71032](https://github.com/DeniseLewis200081/mimir-wallet/commit/eb7103276c3b793719119123d625f771c2d42502))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/DeniseLewis200081/mimir-wallet/issues/267)) ([e851ca2](https://github.com/DeniseLewis200081/mimir-wallet/commit/e851ca2a612341b00ef963ab0ec3de8c6b099b0e))
+* Update asset price source ([#244](https://github.com/DeniseLewis200081/mimir-wallet/issues/244)) ([d19232a](https://github.com/DeniseLewis200081/mimir-wallet/commit/d19232a2ab15cd456cd5625f59bf082dcf69a019))
+* Update google analytic config ([#202](https://github.com/DeniseLewis200081/mimir-wallet/issues/202)) ([48789f0](https://github.com/DeniseLewis200081/mimir-wallet/commit/48789f0021f77f33a9265dd00fb6d34dbbd32a0c))
+* Upgrade polkadotjs to 16.2.2 to support ExtrinsicV5 ([#247](https://github.com/DeniseLewis200081/mimir-wallet/issues/247)) ([249489c](https://github.com/DeniseLewis200081/mimir-wallet/commit/249489cfd9c85eea5edd93594b715163693822c7))
+
+
+### Bug Fixes
+
+* Add LiquidityRestrictions error handling for reserve lock checks ([#197](https://github.com/DeniseLewis200081/mimir-wallet/issues/197)) ([c696271](https://github.com/DeniseLewis200081/mimir-wallet/commit/c696271e40fcf5b4dc55728625910e6669f14eac))
+* filter proposers by network when displaying proposers ([#188](https://github.com/DeniseLewis200081/mimir-wallet/issues/188)) ([7795909](https://github.com/DeniseLewis200081/mimir-wallet/commit/77959093bcfbcb5f14b808119e4f548437658297))
+* fix batch scrollbar issue ([#182](https://github.com/DeniseLewis200081/mimir-wallet/issues/182)) ([d388e82](https://github.com/DeniseLewis200081/mimir-wallet/commit/d388e82bf7f4e0650c20c3e781226568d8e2447d))
+* fix call proxy error in member set and create pure ([#195](https://github.com/DeniseLewis200081/mimir-wallet/issues/195)) ([2817077](https://github.com/DeniseLewis200081/mimir-wallet/commit/2817077907a2cfd15ea201cc6df21ac74cb11da1))
+* fix create flexible multisig error when creating multisig account ([#191](https://github.com/DeniseLewis200081/mimir-wallet/issues/191)) ([1715829](https://github.com/DeniseLewis200081/mimir-wallet/commit/1715829e8ff391633cfab14c5fe4244a8ed53861))
+* fix dapp page layout style ([#253](https://github.com/DeniseLewis200081/mimir-wallet/issues/253)) ([bd608e8](https://github.com/DeniseLewis200081/mimir-wallet/commit/bd608e8a7c9387fab48b57e287d2dbdcbfac061a))
+* fix icon color to use currentColor ([#186](https://github.com/DeniseLewis200081/mimir-wallet/issues/186)) ([c56638b](https://github.com/DeniseLewis200081/mimir-wallet/commit/c56638ba4826f674c16cbd0a1d51e00b80e88564))
+* fix regionx dapp tag ([c5ed306](https://github.com/DeniseLewis200081/mimir-wallet/commit/c5ed306063a59f62a0dfb5c603f8a283281eb7fa))
+* Fix some issues while connect wallet ([#220](https://github.com/DeniseLewis200081/mimir-wallet/issues/220)) ([6ca01fa](https://github.com/DeniseLewis200081/mimir-wallet/commit/6ca01fa3b6d05704cc65ccdb8c0dab9e0f10fe9d))
+* fix some ui issues ([db88406](https://github.com/DeniseLewis200081/mimir-wallet/commit/db884061ffbb17b121c5da2f87bd1757e1b7d258))
+* Fix some UI issues ([#257](https://github.com/DeniseLewis200081/mimir-wallet/issues/257)) ([416d99b](https://github.com/DeniseLewis200081/mimir-wallet/commit/416d99b4bd0d90fa556edf2865cc48023bf95d8a))
+* Fix some ui issues ([#274](https://github.com/DeniseLewis200081/mimir-wallet/issues/274)) ([1d1c2fd](https://github.com/DeniseLewis200081/mimir-wallet/commit/1d1c2fdb9e3ec963ea8826c5d2e174e374af3500))
+* fix some ui issues ([#286](https://github.com/DeniseLewis200081/mimir-wallet/issues/286)) ([6b26214](https://github.com/DeniseLewis200081/mimir-wallet/commit/6b262144def2a050b958db3a31939c31cdaf28d0))
+* fix transfer display issue in batch call ([#184](https://github.com/DeniseLewis200081/mimir-wallet/issues/184)) ([b7c4e51](https://github.com/DeniseLewis200081/mimir-wallet/commit/b7c4e51681cc2a45acc10c61b491f29eb62cbf6f))
+* Fix ui hierarchy issues ([#303](https://github.com/DeniseLewis200081/mimir-wallet/issues/303)) ([3f5967d](https://github.com/DeniseLewis200081/mimir-wallet/commit/3f5967d86fa80a82ee01ef643f95ce8f9e29a8af))
+* Fixed the issue of not being able to open dapp ([2a9b600](https://github.com/DeniseLewis200081/mimir-wallet/commit/2a9b600943b8b3009e99a42f95264f6d3b803653))
+* Fixed the problem of empty ui and skeleton appearing at the same time ([#289](https://github.com/DeniseLewis200081/mimir-wallet/issues/289)) ([4e12e4c](https://github.com/DeniseLewis200081/mimir-wallet/commit/4e12e4ce7e802e8e9a8b275edda8d16e4be13053))
+* improve user experience and fix bugs ([#222](https://github.com/DeniseLewis200081/mimir-wallet/issues/222)) ([07c1120](https://github.com/DeniseLewis200081/mimir-wallet/commit/07c112095dc930d2a193af000a6b122a9e75447c))
+* modal style and account menu style ([#170](https://github.com/DeniseLewis200081/mimir-wallet/issues/170)) ([3803d96](https://github.com/DeniseLewis200081/mimir-wallet/commit/3803d968a3925dcaee8ecd270de543e3fedd26ce))
+* optimize balance fetching performance ([#228](https://github.com/DeniseLewis200081/mimir-wallet/issues/228)) ([f24d654](https://github.com/DeniseLewis200081/mimir-wallet/commit/f24d654a0cdc27a52fc431f1c979fa062a1acd94))
+* optimize user experience and fix some bugs ([#226](https://github.com/DeniseLewis200081/mimir-wallet/issues/226)) ([fd2f241](https://github.com/DeniseLewis200081/mimir-wallet/commit/fd2f2418aae0d6cca9dd970a3f3ce3ae7f2ab62f))
+* Remove duplicate dirty data in transaction approval ([#165](https://github.com/DeniseLewis200081/mimir-wallet/issues/165)) ([f72f99b](https://github.com/DeniseLewis200081/mimir-wallet/commit/f72f99b0b89ef89c7e1168bf39af968d0bdcdd7c))
+* resolve transaction error caused by dryRun issue ([#211](https://github.com/DeniseLewis200081/mimir-wallet/issues/211)) ([1bf656a](https://github.com/DeniseLewis200081/mimir-wallet/commit/1bf656add11532c8aa3ff56120c525dcf6892237))
+* show cancel button for non-pure accounts ([#241](https://github.com/DeniseLewis200081/mimir-wallet/issues/241)) ([628233b](https://github.com/DeniseLewis200081/mimir-wallet/commit/628233bb18c029915ce20ff5c506c341995a27cb))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @mimir-wallet/polkadot-core bumped to 3.0.0
+    * @mimir-wallet/service bumped to 3.0.0
+    * @mimir-wallet/ui bumped to 3.0.0
+
 ## [2.32.0](https://github.com/mimir-labs/mimir-wallet/compare/mimir-wallet-app-v2.31.0...mimir-wallet-app-v2.32.0) (2025-10-14)
 
 
